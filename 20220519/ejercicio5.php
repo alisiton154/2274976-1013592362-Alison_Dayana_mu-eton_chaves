@@ -3,7 +3,9 @@
 if ($_POST){
     print_r($_POST);
 
-    print_r($_FILES);
+    print_r($_FILES['archivo']['name']);
+
+    move_uploaded_file($_FILES['archivo']['tmp_name'],$_FILES['archivo']['name']);
 }
 
 
@@ -18,7 +20,7 @@ if ($_POST){
 </head>
 <body>
     
-     <form action="ejercicio32.php" enoctype="multipart/form-data" method="post">
+     <form action="ejercicio5.php" enctype="multipart/form-data" method="post">
            imagen:
           <input type="file" name="archivo" id="">
             <br/>

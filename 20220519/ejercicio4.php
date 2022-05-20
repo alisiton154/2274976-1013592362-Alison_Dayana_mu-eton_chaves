@@ -72,9 +72,9 @@ if ($_POST){
       ¿Que anime te gusta?... <br/>
       <select name="lsAnime" id="">
           <option value="">[Ninguna Serie]</option>
-          <option value="naruto" <?php echo ($lsAnime=="naruto")?"selected":""; ?> >Naruto</option>
-          <option value="bleach" <?php echo ($lsAnime=="bleach")?"selected":""; ?> >Bleach</option>
-          <option value="dragon" <?php echo ($lsAnime=="dragon")?"selected":""; ?> >Dragon Ball</option>
+          <option value="alison" <?php echo ($lsAnime=="naruto")?"selected":""; ?> >Naruto</option>
+          <option value="dayana" <?php echo ($lsAnime=="bleach")?"selected":""; ?> >Bleach</option>
+          <option value="muneton" <?php echo ($lsAnime=="dragon")?"selected":""; ?> >Dragon Ball</option>
 
     </select>
     <br/>
